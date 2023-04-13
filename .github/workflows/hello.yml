@@ -14,4 +14,5 @@ jobs:
           echo "Hola midu!"
       - name: Dime la fecha
         run: date
-      - run: ls -l
+      - run: |
+          Get-ChildItem
